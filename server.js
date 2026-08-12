@@ -1,17 +1,19 @@
 const express = require("express");
 const jsonServer = require("json-server");
+const path = require("path");
 
 const app = express();
 
 const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
+const dbFile = path.join(__dirname, "db.json");
 
-// Serve HTML, CSS and JS files
+const router = jsonServer.router(dbFile);
+const middlewares = jsonServer.defaults();
+
+app.use(middlewares);
+
 app.use(express.static(__dirname));
-
-// JSON Server
-const router = jsonServer.router("db.json");
 
 app.use(router);
 
