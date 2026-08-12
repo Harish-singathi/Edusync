@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+
+    <link rel="stylesheet" href="admin.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="admin">
+
+        <div class="form-box">
+
+            <h1>🎓 EduSync</h1>
+
+            <input type="hidden" id="id">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter Student Name">
+
+            <input
+                type="text"
+                id="image"
+                placeholder="Enter Image URL">
+
+            <div class="buttons">
+
+                <button onclick="fetchdata()">
+                    📋 Show Students
+                </button>
+
+                <button onclick="savedata()">
+                    💾 Save Student
+                </button>
+
+            </div>
+
+        </div>
+
+        <div id="btn"></div>
+
+    </div>
+
+    <script src="admin.js"></script>
+
+</body>
+</html>

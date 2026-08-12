@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Register</title>
+
+    <link rel="stylesheet" href="register.css">
+
+</head>
+
+<body>
+
+    <div class="register-box">
+
+        <h1>🎓 EduSync</h1>
+
+        <h2>Create Account</h2>
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter Name"
+        >
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Enter Username"
+        >
+
+        <input
+            type="password"
+            id="password"
+            placeholder="Enter Password"
+        >
+
+        <input
+            type="password"
+            id="confirmPassword"
+            placeholder="Confirm Password"
+        >
+
+        <select id="role">
+
+            <option value="user">
+                Register as User
+            </option>
+
+            <option value="admin">
+                Register as Admin
+            </option>
+
+        </select>
+
+        <input
+            type="password"
+            id="adminCode"
+            placeholder="Admin Registration Code"
+        >
+
+        <button
+            type="button"
+            onclick="register()"
+        >
+            Register
+        </button>
+
+        <p id="message"></p>
+
+        <p>
+            Already have an account?
+
+            <a href="./login.html">
+                Login
+            </a>
+        </p>
+
+    </div>
+
+    <script src="./register.js"></script>
+
+</body>
+
+</html>

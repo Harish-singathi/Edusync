@@ -1,0 +1,119 @@
+{
+  "Student": [
+    {
+      "name": "Azeez Ullah Shah",
+      "image": "https://i.pinimg.com/736x/98/58/74/9858745cd157f2797065e639c5b3bf23.jpg ",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Abhishek",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-uxDvEh42_raC5iUzW1NEmzRnPsOXefV9mmNojHv1YA&s=10"
+    },
+    {
+      "id": "3",
+      "name": "Shiva",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRL01aWwplBrEdCCfzDLkwYc57wBs3NKl3Z1feJn_HgIw&s=10"
+    },
+    {
+      "id": "4",
+      "name": "Harish",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgDTtsZWsWkSylscZVHwCiM2aKf7jnjCfLyMwAqtJr_g&s=10"
+    },
+    {
+      "id": "5",
+      "name": "Sagar",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUCBuft_tIPJMdAayS6x3Nwp_jn1IW8FbGxh7DNp97DA&s=10"
+    },
+    {
+      "name": "Vijay",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCgLR1-BSB6_-a4gIdcaTYcUypGm1SNBdXjl9dtvD9A&s=10",
+      "id": "Zz4yYiY1du0"
+    },
+    {
+      "name": "Vrinda",
+      "image": "https://i.pinimg.com/736x/30/d8/c0/30d8c0a3ba346e6dc8b932fbe4d73c60.jpg",
+      "id": "ZhX_6Vgh0m8"
+    }
+  ],
+  "Users": [
+    {
+      "name": "Harish singathi",
+      "username": "HarishVarma",
+      "password": "Harish",
+      "role": "user",
+      "id": "BIpKCzb5DBE"
+    },
+    {
+      "name": "prem sai",
+      "username": "Prem",
+      "password": "kanna",
+      "role": "user",
+      "id": "_KH4Tahylpo"
+    },
+    {
+      "name": "Abhishek",
+      "username": "Abhi",
+      "password": "Abhishek",
+      "role": "user",
+      "id": "qefkV3QNZJ0"
+    },
+    {
+      "name": "prathyusha p",
+      "username": "Prathyu",
+      "password": "Kittu",
+      "role": "user",
+      "id": "5UL5QjzJIlU"
+    },
+    {
+      "name": "AZEEZULLAHshah",
+      "username": "pandu",
+      "password": "pallavi",
+      "role": "user",
+      "id": "0ZRctwiNfMM"
+    },
+    {
+      "name": "sagar",
+      "username": "sagar reddy",
+      "password": "sagar",
+      "role": "user",
+      "id": "NP0r4eqbh5s"
+    },
+    {
+      "name": "shiva kumar",
+      "username": "shiva",
+      "password": "shiva",
+      "role": "user",
+      "id": "JJq_ZTSMWDA"
+    },
+    {
+      "name": "Vijay REDDy",
+      "username": "Reddy",
+      "password": "sony",
+      "role": "user",
+      "id": "jQ-nRHz4jdA"
+    },
+    {
+      "name": "sruthi adepu",
+      "username": "sruthi",
+      "password": "sruu",
+      "role": "user",
+      "id": "gOPKmPzNPZw"
+    },
+    {
+      "name": "sravika pulli",
+      "username": "sravika",
+      "password": "aravind",
+      "role": "user",
+      "id": "gQOQNnDeD78"
+    },
+    {
+      "name": "vrinda g",
+      "username": "Vrinda",
+      "password": "abhi",
+      "role": "admin",
+      "id": "u9r2aeU7eoM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
